@@ -23,6 +23,7 @@ def visualize_wav(audio, sample_rate):
 
     # 出力する文字列を作成
     output = "Visualizer:\n"
+    # 周波数バンド幅
     bin_width = 500
     num_bins = int(np.ceil(positive_freq[-1] / bin_width))
 
